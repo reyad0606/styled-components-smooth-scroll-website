@@ -36,18 +36,18 @@ export const homeObjTwo = {
 
 export const homeObjThree = {
   id: 'signup',
-  lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
   topLine: 'Privacy Policy',
   headline: 'Sign Up to know more',
   description:
     "An internal statement that governs an organization or entity's handling practices of personal information. It is directed at the users of the personal information. A privacy policy instructs employees on the collection and the use of the data, as well as any specific rights the data subjects may have.",
   buttonLabel: 'Sign Up',
-  imgStart: true,
+  imgStart: false,
   img: require('../../images/svg-3.svg').default,
   alt: 'image',
-  dark: true,
-  primary: true,
-  darkText: false,
+  dark: false,
+  primary: false,
+  darkText: true,
 };
