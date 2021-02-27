@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Video from '../../videos/video.mp4';
-import { Button } from '../ButtonElement';
+import { Button } from '../ButtonElements';
 import {
   HeroContainer,
   HeroBg,
@@ -26,7 +26,10 @@ const HeroSection = () => {
       </HeroBg>
       <HeroContent>
         <HeroH1>It should be easy</HeroH1>
-        <HeroP>Sign up for a new account today and receive $1000 crdit</HeroP>
+        <HeroP>
+          Sign up for a new account today and receive $1000 crdit. Isn't it what
+          you want!
+        </HeroP>
         <HeroBtnWrapper>
           <Button
             to='signup'
