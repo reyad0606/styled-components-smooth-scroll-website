@@ -20,12 +20,12 @@ const HeroSection = () => {
     setHover(!hover);
   };
   return (
-    <HeroContainer>
+    <HeroContainer id='home'>
       <HeroBg>
         <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
       </HeroBg>
       <HeroContent>
-        <HeroH1>It should be easy</HeroH1>
+        <HeroH1>Life should be easy</HeroH1>
         <HeroP>
           Sign up for a new account today and receive $1000 crdit. Isn't it what
           you want!
@@ -37,6 +37,11 @@ const HeroSection = () => {
             onMouseLeave={onHover}
             primary='true'
             dark='true'
+            smooth={true}
+            duration={500}
+            spy={true}
+            exact='true'
+            offset={-80}
           >
             Get Started {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
