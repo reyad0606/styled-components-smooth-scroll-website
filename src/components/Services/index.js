@@ -20,25 +20,26 @@ const Services = () => {
       <ServicesWrapper>
         <ServicesCard>
           <ServicesIcon src={Icon1} />
-          <ServicesH2>Web Development</ServicesH2>
+          <ServicesH2>Drone Delivery</ServicesH2>
           <ServicesP>
-            If the circumstance is excellent, we can deliver to you via our
-            newest technology.
+            If the circumstance is less than 10 miles we can deliver to you via
+            our newest technology, Drone Delivery.
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon2} />
-          <ServicesH2>Mobile App Development</ServicesH2>
+          <ServicesH2>Order & Pickup</ServicesH2>
           <ServicesP>
-            You can always pickup your favourite App via any phone you want.
+            You can always pickup your favourite Sushi via drive-through or
+            curbside-pickup.
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon3} />
-          <ServicesH2>Location Based Services</ServicesH2>
+          <ServicesH2>Deliver via third-party service</ServicesH2>
           <ServicesP>
-            We can provide you services via SpaceX satellite technology. What
-            else do you need!
+            Eligible restaurents will send a driver with your package safe and
+            warm within few miutes of ordering.
           </ServicesP>
         </ServicesCard>
       </ServicesWrapper>

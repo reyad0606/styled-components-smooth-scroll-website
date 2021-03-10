@@ -36,7 +36,6 @@ const Footer = () => {
               <FooterLinkTitle>About Us</FooterLinkTitle>
               <FooterLink to='/signin'>How it works</FooterLink>
               <FooterLink to='/signin'>Testimonials</FooterLink>
-              <FooterLink to='/signin'>Careers</FooterLink>
               <FooterLink to='/signin'>Investors</FooterLink>
               <FooterLink to='/signin'>Terms of Service</FooterLink>
             </FooterLinkItems>
@@ -61,7 +60,7 @@ const Footer = () => {
         <SocialMedia>
           <SocialMediaWrap>
             <SocialLogo to='/' onClick={toggleHome}>
-              Mad Max
+              EFC
             </SocialLogo>
             <WebsiteRights>
               Reyad Mahmud &copy; {new Date().getFullYear()} All rights

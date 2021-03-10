@@ -25,11 +25,8 @@ const HeroSection = () => {
         <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
       </HeroBg>
       <HeroContent>
-        <HeroH1>Life should be easy</HeroH1>
-        <HeroP>
-          Sign up for a new account today and receive $1000 crdit. Isn't it what
-          you want!
-        </HeroP>
+        <HeroH1>Ellenville Fried Chicken</HeroH1>
+        <HeroP>HOT & SPICY CHICKEN FRY MIX</HeroP>
         <HeroBtnWrapper>
           <Button
             to='signup'
